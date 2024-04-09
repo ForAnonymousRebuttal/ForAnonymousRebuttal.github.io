@@ -19,7 +19,7 @@ redirect_from:
 
 This is a temporary page to present additional experiment results and analysis for anonymous rebuttal.
 
-Currently this page contains extra rebuttal contents of <b>submission 1763 *Team up GBDTs and DNNs: Advancing Efficient and Effective Tabular Prediction with Tree-hybrid MLPs*</b> in KDD 24'. <b>All used reference No. follow the original one in the paper</b> if without specification.
+Currently this page contains extra rebuttal contents of <b>submission 1763 *Team up GBDTs and DNNs: Advancing Efficient and Effective Tabular Prediction with Tree-hybrid MLPs*</b> in KDD 24'. <b>All used reference No. follow the original ones in the paper</b> if without specification.
 
 
 # 💬 To R twnd 
@@ -482,6 +482,40 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 		</td>
 	</tr>
 </table>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">QA4</div><img src='images/xgb-hp-analysis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<b>QA4: The impact of CART tree amount variation in XGBoost of T-MLP</b> on 2 classificaiton (GE & JA) and 2 regression (CA & FB) datasets. <b>In the paper we uniformly assigned the tree amount as 2,000 as the default XGBoost settings in [23]</b>, and we gradually reduce this value to get such performance variation figure. The results on CA datasets are multiplied by 10. There are several observations:
+
+- Each datasets have different appetite on the best tree amount of the GBDT.
+
+- The default GBDT configs from [23] tends to overfit the data since T-MLP on all four datasets can have a better score with reduced tree amount.
+
+- The slight modification on the default tree amount (i.e., 2,000) does not significantly affect the T-MLP performance.
+</div>
+</div>
+
+
+<b>Detail 1:</b> The statement "slight hyperparameter modification will not change the overall feature preference trend" is not convincing?
+
+- A: Thank you for your rigorous consideration. The additionally conducted experiment in the above QA4 is partially for this detail question, while there exist other parameters of GBDTs, we will add more fine-grained GBDT parameter analysis in the final version.
+
+<b>Detail 2:</b> Full efficiency comparison with GBDTs should be performed?
+
+- A: We agree with your suggestion, and the table of QA2 has partially address this question, we are going to add efficiency comparison of other GBDTs (i.e., CatBoost, LightGBM) in other benchmarks in the final version.
+
+<b>Detail 3:</b> Explanation on why no need for hyperparameter tuning but such great results?
+
+- A: The superiority of the T-MLP framework comes from 3 folds and we will include them finally: 
+	- (1) Throughout GBDT-level sample-wise feature selection: It has been widely observed emulating the feature selection behavior of GBDTs helps tabular prediction (e.g., TabNet [3], LSPNN [64]), while the previous attempt focus on the neural-based soft emulation, which effectiveness is affected by the overall neural networks. Our T-MLP faithfully use and train real GBDTs with decoupled training process, i.e., the GBDTs are trained first, then DNN parts, which will not affect the selection ability.
+	- (2) Sparse neural structure: Inspired by GBDT pruned structure and evidenced by recent works (e.g., TabCaps [13], LSPNN [64]), introducing sparsity to tree-like linearly connected neural models helps generalization.
+	- (3) NAS during training: An implicit structure hyperparameter tuning is done during one-time training, i.e., searching the best sparse structure can be regarded as a parameter optimization process. Moreover, based on the simple but sparse MLP architectures, the ensemble operation can be effectively done without different data splits for each MLP branch, directly using different learning rates will produce distinct sparse structures to expand the sparse assumption space.
+
+<b>Detail 4:</b> Lack feature engineering experiments?
+
+- A: In this paper all baselines were conducted with uniform common feature preprocessing for fair comparison. We are willing to open a section for feature engineering experiments in the final version.
 
 
 # 💬 To R hswh
