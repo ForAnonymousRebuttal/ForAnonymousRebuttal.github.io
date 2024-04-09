@@ -51,8 +51,6 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 💬 To R LYyH 
-
-<div>
 <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
 		QA2: The overhead of training duration against T-MLP
@@ -189,8 +187,7 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 		</td>
 	</tr>
 </table>
-</div>
-<div>
+
 <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
 		<b>QA3: The detailed ablation on T2G datasets</d>
@@ -483,7 +480,7 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 		</td>
 	</tr>
 </table>
-</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">QA4</div><img src='images/xgb-hp-analysis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
