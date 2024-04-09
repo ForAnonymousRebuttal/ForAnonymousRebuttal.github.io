@@ -17,16 +17,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+This is a temporary page to present additional experiment results and analysis for anonymous rebuttal.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Currently this page contains extra rebuttal contents of <b>submission 1763 *Team up GBDTs and DNNs: Advancing Efficient and Effective Tabular Prediction with Tree-hybrid MLPs*</b> in KDD 24'. <b>All used reference No. follow the original one in the paper</b> if without specification.
 
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 💬 To R twnd 
 
-# 📝 Publications 
+- xxx
+
+# 💬 To R pAZD
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -42,17 +42,122 @@ My research interest includes neural machine translation and computer vision. I 
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors and Awards
+# 💬 To R F2J2
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
+# 💬 To R jHCg
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 💬 To R LYyH 
+|              | GE     | CH     | EY     | CA    | HO    | AD    | OT     | HE      | JA     | HI     | FB     | YE     | avg    |
+| :----------- | -----: | -----: | -----: | ----: | ----: | ----: | -----: | ------: | -----: | -----: | -----: | -----: | -----: |
+| XGBoost(T)   | x14\.72 | x8\.32  | x14\.05 | x3\.87 | x2\.75 | x6\.13 | x29\.89 | x273\.80 | x71\.17 | x24\.13 | x32\.85 | x25\.42 | x42\.26 |
+| xXGBoost(T\*) | x12\.93 | x11\.04 | x11\.21 | x2\.57 | x2\.99 | x7\.39 | x8\.65  | x425\.65 | x24\.35 | x4\.46  | x22\.67 | x17\.69 | x45\.97 |
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+# 💬 To R hswh
+
+<table style="border-collapse: collapse; border: none; border-spacing: 0px;">
+	<caption>
+	  ​​<b>Default hyperparameters (HPs) of T-MLP in this paper</b>
+	</caption>
+	<tr>
+		<td colspan="2" style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			T-MLP’s GBDT architecture: XGBoost
+		</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			Model HPs
+		</td>
+		<td rowspan="2" style="border-left: 1px solid windowtext; border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			Same as the default XGBoost configs used in the Table 4 of FT-T paper [23], you can find and download the HP config file from its <a href="https://github.com/yandex-research/rtdl-revisiting-models/blob/main/output/adult/xgboost/default/0/stats.json"><u>repo</u></a>, other unmentioned HPs are kept default as <a href="https://xgboost.readthedocs.io/en/stable/python/python_api.html#module-xgboost.sklearn"><u>XGBoost official APIs</u></a>.
+		</td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			Training HPs
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			T-MLP’s DNN architecture: MLP
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			Model HPs
+		</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			Hidden size
+		</td>
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			1024; decided by keeping equivalent storage space as the MLP baselines in [23]
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			Intermediate factor
+		</td>
+		<td style="border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			2/3, i.e., with an intermediate size of 1024 x 2/3 = 676; refer to the one in FT-T [23]
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			Residual dropout
+		</td>
+		<td style="border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			0.1; refer to the one in FT-T [23]
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			Layer count
+		</td>
+		<td style="border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			1
+		</td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			Sparsity rate
+		</td>
+		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			0.33, the only HP for controlled pruning algorithm referring to CoFi [62]
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			Training HPs
+		</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			Learning rate
+		</td>
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			(A)&nbsp;&nbsp; For single T-MLP, 1e-4; (B) For ensemble version, i.e., T-MLP(3), using 1e-4, 5e-4, 1e-3 for three branches respectively; refer to [23]
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			Weight decay
+		</td>
+		<td style="border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			0
+		</td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			Optimizer
+		</td>
+		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			AdamW, with all other training HPs kept default
+		</td>
+	</tr>
+</table>
