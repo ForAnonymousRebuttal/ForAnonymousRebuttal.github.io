@@ -52,6 +52,7 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 
 # 💬 To R LYyH 
 
+<div>
 <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
 		<b>QA2: The overhead of training duration against T-MLP</b>
@@ -188,8 +189,8 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 		</td>
 	</tr>
 </table>
-
-
+</div>
+<div>
 <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
 		<b>QA3: The detailed ablation on T2G datasets</d>
@@ -482,7 +483,7 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 		</td>
 	</tr>
 </table>
-
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">QA4</div><img src='images/xgb-hp-analysis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -497,10 +498,10 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 </div>
 </div>
 
-
+<div>
 <b>Detail 1:</b> The statement "slight hyperparameter modification will not change the overall feature preference trend" is not convincing?
 
-- A: Thank you for your rigorous consideration. The additionally conducted experiment in the above QA4 is partially for this detail question, while there exist other parameters of GBDTs, we will add more fine-grained GBDT parameter analysis in the final version.
+- A: Thank you for your rigorous consideration. The additionally conducted experiment in the above QA4 is partially for this detail question, while there exist other parameters of GBDTs, we will add more fine-grained GBDT parameter analysis in the final version. 
 
 <b>Detail 2:</b> Full efficiency comparison with GBDTs should be performed?
 
@@ -516,7 +517,7 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 <b>Detail 4:</b> Lack feature engineering experiments?
 
 - A: In this paper all baselines were conducted with uniform common feature preprocessing for fair comparison. We are willing to open a section for feature engineering experiments in the final version.
-
+</div>
 
 # 💬 To R hswh
 
