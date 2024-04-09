@@ -55,48 +55,48 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 <div>
 <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
-		<b>QA2: The overhead of training duration against T-MLP</b>
+		QA2: The overhead of training duration against T-MLP
 	</caption>
 	<tr>
-		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 		</td>
-		<td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			GE
 		</td>
-		<td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			CH
 		</td>
-		<td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			EY
 		</td>
-		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			CA
 		</td>
-		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			HO
 		</td>
-		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			AD
 		</td>
-		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			OT
 		</td>
-		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			HE
 		</td>
-		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			JA
 		</td>
-		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			HI
 		</td>
-		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			FB
 		</td>
-		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			YE
 		</td>
-		<td style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			avg
 		</td>
 	</tr>
@@ -104,16 +104,16 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			XGBoost(T)
 		</td>
-		<td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
 			x14.72
 		</td>
-		<td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
 			x8.32
 		</td>
-		<td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
 			x14.05
 		</td>
-		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
 			x3.87
 		</td>
 		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
@@ -126,7 +126,7 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 			x29.89
 		</td>
 		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
-			273.80
+			x273.80
 		</td>
 		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
 			x71.17
@@ -148,16 +148,16 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
 			XGBoost(T*)
 		</td>
-		<td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
 			x12.93
 		</td>
-		<td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
 			x11.04
 		</td>
-		<td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
 			x11.21
 		</td>
-		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
+		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
 			x2.57
 		</td>
 		<td style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: right; padding-right: 3pt; padding-left: 3pt;">
@@ -523,11 +523,11 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 
 <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
-	  ​​<b>Default hyperparameters (HPs) of T-MLP in this paper</b>
+		<b>QA1: Default hyperparameters (HPs) of T-MLP in this paper</b>
 	</caption>
 	<tr>
 		<td colspan="2" style="border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			T-MLP’s GBDT architecture: XGBoost
+			T-MLP's GBDT architecture: XGBoost
 		</td>
 	</tr>
 	<tr>
@@ -545,7 +545,7 @@ Currently this page contains extra rebuttal contents of <b>submission 1763 *Team
 	</tr>
 	<tr>
 		<td colspan="2" style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			T-MLP’s DNN architecture: MLP
+			T-MLP's DNN architecture: MLP
 		</td>
 	</tr>
 	<tr>
